@@ -1,0 +1,59 @@
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Andale Mono", monospace;
+    color: darkslategrey;
+}
+
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+header{
+    flex-direction: row;
+    display: flex;
+    height: 5%;
+    width: inherit;
+}
+
+main{
+    height: 95%;
+    width: inherit;
+    background-color: lavender;
+}
+
+.main-page{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: lightyellow;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin-inline: 0.5rem;
+}
+
+li{
+    list-style: none;
+    border: 1px solid lightyellow;
+    justify-content: space-between;
+    display: flex;
+    height: 6rem;
+    background-color: grey;
+}
+
+span{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
