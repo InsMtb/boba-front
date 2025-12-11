@@ -1,5 +1,6 @@
 import './App.css'
 import {RankType} from "./models/BubbleTeaModel.ts";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const ranks = Object.values(RankType);
 
@@ -10,7 +11,7 @@ const colors = [
     '#C9E0A9',
     '#E3D99F',
     '#F5C59E',
-    '#F7ABA4',
+    '#f7a4e9',
     '#F4A6A6'
 ];
 
@@ -19,7 +20,16 @@ function App() {
   return (
     <div className="main-page">
       <header>
+          <div className="title-container">
           <h1>Bubble Tea'R List</h1>
+          <DotLottieReact
+              src="https://lottie.host/c595c486-a870-453f-b473-2d3ca958855c/dnuSf60ivC.lottie"
+              loop
+              autoplay
+              className="lottie-animation"
+          />
+          </div>
+          <button>+</button>
       </header>
         <main>
             <ul>

@@ -9,29 +9,37 @@
 }
 
 h1{
-    margin: 0;
     font-size: 2rem;
 }
 
 header{
     flex-direction: row;
     display: flex;
-    height: 5%;
     width: inherit;
+    border-bottom: 1px solid rgba(129, 100, 253, 0.81);
+    justify-content: space-around;
 }
 
 main{
-    height: 95%;
     width: inherit;
-    background-color: lavender;
 }
 
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .main-page{
     height:100%;
     width:100%;
     margin:0;
     padding:0;
-    background-color: lightyellow;
+    background-color: lavender;
+}
+
+.lottie-animation{
+    width: 15%;
 }
 
 ul{
@@ -40,6 +48,7 @@ ul{
     gap: 0.5rem;
     padding: 1rem;
     margin-inline: 0.5rem;
+    height: 100%;
 }
 
 li{
@@ -49,6 +58,7 @@ li{
     display: flex;
     height: 6rem;
     background-color: grey;
+    position: relative;
 }
 
 span{
@@ -56,4 +66,22 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    border: deeppink;
+    background-color: lightpink;
+    border-radius: 100%;
+}
+
+
+
+button:hover{
+    scale: 1.3;
+    border: 2px solid green;
+    background-color: lightgreen;
 }
